@@ -1,4 +1,5 @@
 from timeit import default_timer as timer
+from typing import List
 
 class Solution:
     def __init__(self):
