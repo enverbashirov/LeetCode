@@ -11,6 +11,7 @@ class TreeNode:
         return self
     
     def populateFromArr(self, arr, i = 0): # Binary Tree (filled according to arr)
+        if len(arr) == 0: self = None
         if len(arr) > i: self.val = arr[i]
         if len(arr) > (((i+1)*2)-1) and (arr[(((i+1)*2)-1)]): self.left = TreeNode(None).populateFromArr(arr, (((i+1)*2)-1))
         if len(arr) > (((i+1)*2)) and (arr[(i+1)*2]): self.right = TreeNode(None).populateFromArr(arr, (((i+1)*2)))
