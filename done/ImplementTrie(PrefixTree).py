@@ -2,6 +2,7 @@ from timeit import default_timer as timer
 from time import sleep
 from typing import List
 # from pack import Trie
+
 class Trie:
 
     def __init__(self):
