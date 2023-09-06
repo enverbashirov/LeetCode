@@ -1,4 +1,3 @@
-**__pycache__**
 *.class
 .vscode
 .env
@@ -6,4 +5,5 @@ env/
 .vscode/
 **test**
 **Test**
+**pycache**
 !template*

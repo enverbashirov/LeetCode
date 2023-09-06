@@ -19,3 +19,4 @@ class Queue:
 
     def empty(self) -> bool:
         return self.queue == []
+    
