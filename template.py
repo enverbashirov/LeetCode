@@ -6,10 +6,10 @@ class Solution:
         print("init")
 
     def main(self):
-        return
-
+        start = timer()
+        # Function call
+        print(f"{timer() - start:.20f}")
+    
 if __name__ == "__main__":
     sol = Solution()
-    start = timer()
     sol.main()
-    print(f"{timer() - start:.20f}")
